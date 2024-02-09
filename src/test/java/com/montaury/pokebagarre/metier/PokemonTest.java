@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PokemonTest {
 
     @Test
-    void TestBestPokemonAttaque1(){
+    void pokemon_1_devrait_gagner_si_attaque_la_plus_forte(){
         // Creation des stats des pokemon
         Stats statsPokemon1 = new Stats(50,50);
         Stats statsPokemon2 = new Stats(1,50);
@@ -21,7 +21,7 @@ class PokemonTest {
     }
 
     @Test
-    void TestBestPokemonAttaque2(){
+    void pokemon_2_devrait_gagner_si_attaque_la_plus_forte(){
         // Creation des stats des pokemon
         Stats statsPokemon1 = new Stats(1,50);
         Stats statsPokemon2 = new Stats(50,50);
@@ -34,7 +34,7 @@ class PokemonTest {
     }
 
     @Test
-    void TestBestPokemonDefence1(){
+    void pokemon_1_devrait_gagner_si_defence_la_plus_forte(){
         // Creation des stats des pokemon
         Stats statsPokemon1 = new Stats(50,50);
         Stats statsPokemon2 = new Stats(50,1);
@@ -47,7 +47,7 @@ class PokemonTest {
     }
 
     @Test
-    void TestBestPokemonDefence2(){
+    void pokemon_2_devrait_gagner_si_defence_la_plus_forte(){
         // Creation des stats des pokemon
         Stats statsPokemon1 = new Stats(50,1);
         Stats statsPokemon2 = new Stats(50,50);
@@ -60,7 +60,7 @@ class PokemonTest {
     }
 
     @Test
-    void TestBestPokemonDefaultName(){
+    void pokemon_1_devrait_gagner_si_attaque_et_defence_sont_egale(){
         // Creation des stats des pokemon
         Stats statsPokemon1 = new Stats(50,50);
         Stats statsPokemon2 = new Stats(50,50);
