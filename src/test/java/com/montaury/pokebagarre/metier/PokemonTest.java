@@ -34,7 +34,7 @@ class PokemonTest {
     }
 
     @Test
-    void pokemon_1_devrait_gagner_si_defence_la_plus_fortes(){
+    void pokemon_1_devrait_gagner_si_defence_la_plus_forteeeees(){
         // Creation des stats des pokemon
         Stats statsPokemon1 = new Stats(50,50);
         Stats statsPokemon2 = new Stats(50,1);
