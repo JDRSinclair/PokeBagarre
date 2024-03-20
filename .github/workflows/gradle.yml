@@ -45,5 +45,5 @@ jobs:
       with:
         artifact: test-results            # artifact name
         name: JAVA Tests                  # Name of the check run which will be created
-        path: build\test-results\test                     # Path to test results (inside artifact .zip)
+        path: build/test-results/test/*.xml                    # Path to test results (inside artifact .zip)
         reporter: java-junit 
