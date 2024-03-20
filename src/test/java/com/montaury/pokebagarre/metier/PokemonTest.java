@@ -60,7 +60,7 @@ class PokemonTest {
     }
 
     @Test
-    void pokemon_1_devrait_gagner_si_attaque_et_defence_sont_egale(){
+    void pokemon_1_devrait_gagner_si_attaque_et_defence_sont_egalee(){
         // Creation des stats des pokemon
         Stats statsPokemon1 = new Stats(50,50);
         Stats statsPokemon2 = new Stats(50,50);
